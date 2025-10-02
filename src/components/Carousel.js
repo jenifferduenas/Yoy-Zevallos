@@ -1,8 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper"; // Correcto
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
 import "../CSS/styles.css";
 import slider1 from '../images/slider1.jpg';
 import slider2 from '../images/slider2.jpg';

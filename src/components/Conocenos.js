@@ -36,6 +36,21 @@ const Conocenos = () => {
                      artísticas, con un alto componente final psicoterapéutico. Nuestro lema: 
                      “El ser humano vino a este mundo para ser feliz”.
                     </div>
+
+                    <div className={`accordion-content ${activos.includes(1) ? "open" : ""}`}>
+                    La Fundación Sociocultural y de Ayuda Mutua "Yoyó Zevallos", legalmente 
+                    constituida en diciembre de 2019, con domicilio en la ciudad de Portoviejo, 
+                    sin fines de lucro, busca realizar acciones y actividades con personas de atención
+                    prioritaria, a través de expresiones artísticas, pero, con un alto componente final psicoterapéutico. 
+                    La fundación cree fielmente que “el arte sí puede cambiar el mundo” y, por nominación de 
+                    su filosofía, inspirada en la conmemoración de quien hace referencia su nombre, consideramos que: 
+                    “El ser humano vino a este mundo para ser feliz”.
+                    Aunque empezamos con cinco miembros: Ángela María Zevallos Mendoza, 
+                    Hernán Omar Baquero Arévalo, Patricio Javier Munizaga Párraga,
+                    Martha Cecilia Terán Vargas, y David Andrés Acosta Herrera, 
+                    actualmente estamos activos los tres primeros.
+                    </div>
+
                 </div>
 
                 <div className="accordion-item">
