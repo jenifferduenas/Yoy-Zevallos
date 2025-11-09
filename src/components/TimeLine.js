@@ -83,6 +83,37 @@ import pedagogia2 from "../images/TC2.jpg";
 import pedagogia3 from "../images/TC3.jpg";
 import pedagogia4 from "../images/TC4.jpg";
 import pedagogia5 from "../images/TC5.jpg"; 
+import LasPampas1 from "../images/LasPampas1.jpg";
+import LasPampas2 from "../images/LasPampas2.jpg";
+import LasPampas3 from "../images/LasPampas3.jpg";
+import LasPampas4 from "../images/LasPampas4.jpg";
+import LasPampas5 from "../images/LasPampas5.jpg";
+import LasPampas6 from "../images/LasPampas6.jpg";
+import LasPampas7 from "../images/LasPampas7.jpg";
+import RioManta1 from "../images/RioManta1.jpg";
+import RioManta2 from "../images/RioManta2.jpg";
+import RioManta3 from "../images/RioManta3.jpg";
+import RioManta4 from "../images/RioManta4.jpg";
+import RioManta5 from "../images/RioManta5.jpg";
+import RioManta6 from "../images/RioManta6.jpg";
+import Teatro01 from "../images/Teatro1.jpg";
+import Teatro02 from "../images/Teatro2.jpg";
+import Teatro03 from "../images/Teatro3.JPG";
+import Teatro04 from "../images/Teatro4.jpg";
+import Teatro05 from "../images/Teatro5.jpg";
+import Teatro06 from "../images/Teatro6.jpg";
+import teatroterapia1 from "../images/teatroterapia1.JPG";
+import teatroterapia2 from "../images/teatroterapia2.jpg";
+import teatroterapia3 from "../images/teatroterapia3.JPG";
+import teatroterapia4 from "../images/teatroterapia4.jpg";
+import teatroterapia5 from "../images/teatroterapia5.jpg";
+import teatroterapia6 from "../images/teatroterapia6.JPG";
+import ENTUN1 from "../images/ENTUN1.jpg";
+import ENTUN2 from "../images/ENTUN2.jpg";
+import ENTUN3 from "../images/ENTUN3.jpg";
+import ENTUN4 from "../images/ENTUN4.jpg";
+import ENTUN5 from "../images/ENTUN5.jpg";
+import ENTUN6 from "../images/ENTUN6.jpg";
 
 
 // Swiper imports correctos para la versión 9+
@@ -239,7 +270,35 @@ const timelineData = [
   description:
     "Gracias a la colaboración de la Compañía Artística Iguana Ceibo, y bajo la instrucción de Christian Gerardo Guerra Aguayo, del Colectivo 5 Up, se desarrolló en el gimnasio de la UTM, el Taller de Artes Circenses, mediante la pedagogía y disciplina de circo (acrobacia, equilibrios y trabajo en equipo), mediante la exploración corporal, la creación de nuevas rutinas, y demás destrezas corporales desde las acrobacias. Se capacitaron miembros de la Compañía Artística Iguana Ceibo y estudiantes de la carrera Pedagogía de la Actividad Física, Deporte y Recreación UTM.\n La coyuntura entre la Fundación Yoyó Zevallos, la Compañía Iguana Ceibo y la Universidad Técnica de Manabí, aportó a la consecución de destrezas de los participantes.",
   carouselImages: [pedagogia5,pedagogia, pedagogia2, pedagogia3, pedagogia4],
-}
+},
+  {
+  year: "Septiembre de 2021",
+  title: "Danza experimental y circo en Comunidades Rurales de Manabí",
+  description:
+    "Bajo el auspicio de la Fundación Yoyó Zevallos, la Compañía Iguana Ceibo y la Universidad Técnica de Manabí, a través de su Unidad de Cultura, se realizó en las comunidades Las Pampas y Río Manta de Montecristi, la presentación de las Compañías 5UP y Lazuli, a través de un espectáculo que fusiona danza experimental y circo. Juanita Anchundia Quijije, Juvenal Quijije Macías y Medal Delgado, líderes comunitarios, apoyaron la logística en la organización.",
+  carouselImages: [LasPampas1, LasPampas2, LasPampas3, LasPampas4, LasPampas5, LasPampas6, LasPampas7, RioManta1, RioManta2, RioManta3, RioManta4, RioManta5, RioManta6],
+},
+{
+  year: "Septiembre de 2021",
+  title: "Nuevas capacitaciones dentro del Taller de Teatroterapia",
+  description:
+    "Continúa el Taller de Teatroterapia desarrollado por la Fundación Sociocultural Yoyó Zevallos y el Gobierno Provincial de Manabí, con el apoyo de la Unidad de Cultura UTM y la Casa de la Cultura Ecuatoriana - Núcleo Manabí. Con la participación de los miembros de ADISPOR y bajo la instrucción de Carlos Delgado (UTM) y Hernán Barquero (FYZ), se ha puesto en marcha la creación colectiva a través de anécdotas de cada uno de los participantes.",
+  carouselImages: [Teatro01, Teatro02, Teatro03, Teatro04, Teatro05, Teatro06],
+},
+{
+  year: "Octubre de 2021",
+  description:
+    "Continúa el Taller de Teatroterapia que ejecuta la Fundación Sociocultural Yoyó Zevallos y el Gobierno Provincial de Manabí, con el apoyo de la Unidad de Cultura UTM y la Casa de la Cultura Ecuatoriana - Núcleo Manabí. Bajo las instrucciones de Carlos Delgado (UTM), los miembros de ADISPOR, han empezado a crear propuestas para el montaje de una obra.",
+  carouselImages: [teatroterapia1, teatroterapia2, teatroterapia3, teatroterapia4, teatroterapia5, teatroterapia6],
+},
+{
+  year: "Octubre de 2021",
+  title: "Fundación Yoyó Zevallos es parte del ENTUN UTM 2021",
+  description:
+    "El Encuentro Nacional de Teatro Universitario - ENTUN UTM 2021, bajo la organización de la Unidad de Cultura de la Universidad Técnica de Manabí, cuenta con la coyuntura de la Fundación Yoyó Zevallos, Casa de la Cultura Ecuatoriana - Núcleo Manabí y Compañía Iguana Ceibo, vinculándose más y mejor con la comunidad provincial. Dentro de esta edición se desarrolló el taller de acrobacia y malabares 'Funámbulo' en Machalilla (Puerto López), bajo la instrucción de la Compañía Iguana Ceibo.",
+  carouselImages: [ENTUN1, ENTUN2, ENTUN3, ENTUN4, ENTUN5, ENTUN6],
+},
+
 ];
 
 const NuestroCamino = () => {
